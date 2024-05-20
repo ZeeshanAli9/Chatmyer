@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Inter", sans-serif;
+}
+.premium::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url("./assets/SidebarIcons/Shape.svg");
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 100%;
+}
