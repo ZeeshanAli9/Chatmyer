@@ -1,6 +1,7 @@
 import React from "react";
 import Sidebar from "../Global/Sidebar";
 import { Outlet } from "react-router-dom";
+import Topbar from "../Global/Topbar";
 
 const OutletComponent = () => {
   return (
@@ -11,7 +12,12 @@ const OutletComponent = () => {
         </div>
 
         <div className="w-[100vw] main-outlet overflow-hidden h-[100vh]">
-          <Outlet />
+          <div>
+            <Topbar />
+          </div>
+          <main>
+            <Outlet />
+          </main>
         </div>
       </div>
     </>
