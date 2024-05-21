@@ -61,7 +61,6 @@ body{
 /* Custom scrollbar for Mozilla Firefox */
 * {
     scrollbar-width: unset;
-    scrollbar-height: unset;
     /* Makes the scrollbar thinner */
     scrollbar-color: #B6B4BA ;
     /* Handle color and track color */

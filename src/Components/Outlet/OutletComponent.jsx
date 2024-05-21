@@ -6,13 +6,13 @@ import Topbar from "../Global/Topbar";
 const OutletComponent = () => {
   return (
     <>
-      <div className="flex">
+      <div className="flex overflow-y-hidden">
         <div>
           <Sidebar />
         </div>
 
-        <div className="w-[100vw] main-outlet overflow-hidden h-[100vh]">
-          <div>
+        <div className="lg:w-[100vw] main-outlet  h-[100vh]">
+          <div className="w-[100%]">
             <Topbar />
           </div>
           <main>

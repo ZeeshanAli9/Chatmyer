@@ -1,7 +1,10 @@
+import chatimg from "../assets/Images/Image.png"
 export const inboxuser = [
     
+    
             {
-                id: 1,
+                id: 101,
+                email:"xyz@xyz.com",
                 Username: "Benedita Tavares",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -11,7 +14,8 @@ export const inboxuser = [
                 newmsg : true
             },
             {
-                id: 1,
+                id: 102,
+                email:"xyz@xyz.com",
                 Username: "Dylan Sandoval",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -19,7 +23,8 @@ export const inboxuser = [
                 newmsg : true
             },
             {
-                id: 1,
+                id: 103,
+                email:"xyz@xyz.com",
                 Username: "Riley Cooper",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -28,7 +33,8 @@ export const inboxuser = [
                 newmsg : false
             },
             {
-                id: 1,
+                id: 104,
+                email:"xyz@xyz.com",
                 Username: "Quinten Kortum",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -37,7 +43,8 @@ export const inboxuser = [
                 newmsg : false
             },
             {
-                id: 1,
+                id: 105,
+                email:"xyz@xyz.com",
                 Username: "Clarke Gillebert",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -46,7 +53,8 @@ export const inboxuser = [
                 newmsg : false
             },
             {
-                id: 1,
+                id: 106,
+                email:"xyz@xyz.com",
                 Username: "Fua Lamba",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -54,7 +62,8 @@ export const inboxuser = [
                 newmsg : true
             },
             {
-                id: 1,
+                id: 107,
+                email:"xyz@xyz.com",
                 Username: "Dylan Sandoval",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -62,7 +71,8 @@ export const inboxuser = [
                 newmsg : true
             },
             {
-                id: 1,
+                id: 108,
+                email:"xyz@xyz.com",
                 Username: "Riley Cooper",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -71,7 +81,8 @@ export const inboxuser = [
                 newmsg : false
             },
             {
-                id: 1,
+                id: 109,
+                email:"xyz@xyz.com",
                 Username: "Quinten Kortum",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -80,7 +91,8 @@ export const inboxuser = [
                 newmsg : false
             },
             {
-                id: 1,
+                id: 110,
+                email:"xyz@xyz.com",
                 Username: "Clarke Gillebert",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -89,7 +101,8 @@ export const inboxuser = [
                 newmsg : false
             },
             {
-                id: 1,
+                id: 111,
+                email:"xyz@xyz.com",
                 Username: "Fua Lamba",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -97,7 +110,8 @@ export const inboxuser = [
                 newmsg : true
             },
             {
-                id: 1,
+                id: 112,
+                email:"xyz@xyz.com",
                 Username: "Dylan Sandoval",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -105,7 +119,8 @@ export const inboxuser = [
                 newmsg : true
             },
             {
-                id: 1,
+                id: 113,
+                email:"xyz@xyz.com",
                 Username: "Riley Cooper",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -114,7 +129,8 @@ export const inboxuser = [
                 newmsg : false
             },
             {
-                id: 1,
+                id: 114,
+                email:"xyz@xyz.com",
                 Username: "Quinten Kortum",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -123,7 +139,8 @@ export const inboxuser = [
                 newmsg : false
             },
             {
-                id: 1,
+                id: 115,
+                email:"xyz@xyz.com",
                 Username: "Clarke Gillebert",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -132,7 +149,8 @@ export const inboxuser = [
                 newmsg : false
             },
             {
-                id: 1,
+                id: 116,
+                email:"xyz@xyz.com",
                 Username: "Fua Lamba",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -140,7 +158,8 @@ export const inboxuser = [
                 newmsg : true
             },
             {
-                id: 1,
+                id: 117,
+                email:"xyz@xyz.com",
                 Username: "Dylan Sandoval",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -148,7 +167,8 @@ export const inboxuser = [
                 newmsg : true
             },
             {
-                id: 1,
+                id: 118,
+                email:"xyz@xyz.com",
                 Username: "Riley Cooper",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -157,7 +177,8 @@ export const inboxuser = [
                 newmsg : false
             },
             {
-                id: 1,
+                id: 119,
+                email:"xyz@xyz.com",
                 Username: "Quinten Kortum",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -166,7 +187,8 @@ export const inboxuser = [
                 newmsg : false
             },
             {
-                id: 1,
+                id: 120,
+                email:"xyz@xyz.com",
                 Username: "Clarke Gillebert",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -175,7 +197,8 @@ export const inboxuser = [
                 newmsg : false
             },
             {
-                id: 1,
+                id: 121,
+                email:"xyz@xyz.com",
                 Username: "Fua Lamba",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -183,7 +206,8 @@ export const inboxuser = [
                 newmsg : true
             },
             {
-                id: 1,
+                id: 122,
+                email:"xyz@xyz.com",
                 Username: "Dylan Sandoval",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -191,7 +215,8 @@ export const inboxuser = [
                 newmsg : true
             },
             {
-                id: 1,
+                id: 123,
+                email:"xyz@xyz.com",
                 Username: "Riley Cooper",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -200,7 +225,8 @@ export const inboxuser = [
                 newmsg : false
             },
             {
-                id: 1,
+                id: 124,
+                email:"xyz@xyz.com",
                 Username: "Quinten Kortum",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -209,7 +235,8 @@ export const inboxuser = [
                 newmsg : false
             },
             {
-                id: 1,
+                id: 125,
+                email:"xyz@xyz.com",
                 Username: "Clarke Gillebert",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -218,7 +245,8 @@ export const inboxuser = [
                 newmsg : false
             },
             {
-                id: 1,
+                id: 126,
+                email:"xyz@xyz.com",
                 Username: "Fua Lamba",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -226,7 +254,8 @@ export const inboxuser = [
                 newmsg : true
             },
             {
-                id: 1,
+                id: 127,
+                email:"xyz@xyz.com",
                 Username: "Gladys Kanyinda",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -235,7 +264,8 @@ export const inboxuser = [
                 newmsg : false
             },
             {
-                id: 1,
+                id: 128,
+                email:"xyz@xyz.com",
                 Username: "Jurrien Oldhof",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -244,7 +274,8 @@ export const inboxuser = [
                 
             },
             {
-                id: 1,
+                id: 129,
+                email:"xyz@xyz.com",
                 Username: "Marco Alves",
                 message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
                 time: "2m",
@@ -255,4 +286,135 @@ export const inboxuser = [
            
         
     
+]
+
+export const chatboxmessage = [
+    {
+        id: 123,
+        name: "Benedita Tavares",
+        message: "Hello! I think I found a bug!",
+        message_type: "text",
+        user_type: "visitor",
+        time: "Today 11:52" ,
+        status:"seen",
+    },
+    {
+        id: 125,
+        name: "Benedita Tavares",
+        message: "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
+        message_type: "text",
+        user_type: "agent",
+        time: "Today 11:52",
+         status:"seen",
+    },
+    {
+        id: 127,
+        name: "Benedita Tavares",
+        message: "Sure. Taking a screenshot right now.",
+        message_type: "text",
+        user_type: "visitor",
+        time: "Today 11:52", 
+         status:"seen",
+    },
+    {
+        id: 124,
+        name: "Benedita Tavares",
+        message: chatimg,
+        messagetext:"This is some test message",
+        message_type: "text_image",
+        user_type: "visitor",
+        time: "Today 11:52",
+         status:"seen",
+    },
+    {
+        id: 134,
+        name: "Benedita Tavares",
+        message: chatimg,
+        messagetext:"This is some test message",
+        message_type: "text_image",
+        user_type: "agent",
+        time: "Today 11:52",
+         status:"seen",
+    },
+    {
+        id: 120,
+        name: "Benedita Tavares",
+        message: "Thanks you! I’m reporting this internally",
+        message_type: "text",
+        user_type: "agent",
+        time: "Today 11:52",
+         status:"seen",
+    },
+    {
+        id: 129,
+        name: "Benedita Tavares",
+        message: chatimg,
+        message_type: "image",
+        user_type: "agent",
+        time: "Today 11:52",
+         status:"seen",
+    },
+    {
+        id: 129,
+        name: "Benedita Tavares",
+        message: chatimg,
+        message_type: "image",
+        user_type: "visitor",
+        time: "Today 11:52",
+         status:"seen",
+    },
+    {
+        id: 121,
+        name: "Benedita Tavares",
+        message: "Thanks you! I’m reporting this internally",
+        message_type: "text",
+        user_type: "visitor",
+        time: "Today 11:52",
+         status:"seen",
+    },
+    {
+        id: 122,
+        name: "Benedita Tavares",
+        message: "Thanks you! I’m reporting this internally",
+        message_type: "text",
+        user_type: "agent",
+        time: "Today 11:52",
+         status:"seen",
+    },
+    {
+        id: 121,
+        name: "Benedita Tavares",
+        message: "Thanks you! I’m reporting this internally",
+        message_type: "text",
+        user_type: "visitor",
+        time: "Today 11:52",
+         status:"seen",
+    },
+    {
+        id: 122,
+        name: "Benedita Tavares",
+        message: "Thanks you! I’m reporting this internally",
+        message_type: "text",
+        user_type: "agent",
+        time: "Today 11:52" ,
+         status:"seen",
+    },
+    {
+        id: 121,
+        name: "Benedita Tavares",
+        message: "Thanks you! I’m reporting this internally",
+        message_type: "text",
+        user_type: "visitor",
+        time: "Today 11:52",
+         status:"seen",
+    },
+    {
+        id: 122,
+        name: "Benedita Tavares",
+        message: "Thanks you! I’m reporting this internally",
+        message_type: "text",
+        user_type: "agent",
+        time: "Today 11:52",
+         status:"seen",
+    },
 ]

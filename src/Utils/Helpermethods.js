@@ -39,3 +39,16 @@ export function generateLightColor() {
 
   return color;
 }
+
+export function generateColor() {
+  const letters = '0123456789ABCDEF';
+  let color = '#';
+  
+  // Generate a random light color
+  for (let i = 0; i < 3; i++) {
+    const value = Math.floor(Math.random() * 128 + 128); // Values between 128 and 255
+    color += value.toString(16).padStart(2, '0');
+  }
+  
+  return color;
+}

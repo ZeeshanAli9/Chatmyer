@@ -6,7 +6,7 @@ import { Link, NavLink } from "react-router-dom";
 const Sidebar = () => {
   return (
     <>
-      <div className="bg-[#FAFAFA] w-[300px] h-[100vh] p-5 border-r border-[#EBEAED] ">
+      <div className="bg-[#FAFAFA] w-[240px] lg:w-[300px] h-[100vh] p-5 border-r border-[#EBEAED] ">
         <div>
           {/* main img */}
           <div className="flex items-center justify-between py-2 ">
