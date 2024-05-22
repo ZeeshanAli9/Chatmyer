@@ -27,18 +27,18 @@ const UserChatTemplate = ({ data, lightcolor }) => {
             </div>
             <div>
               {data.message_type === "text" && (
-                <div className="max-w-[400px] ml-auto lg:max-w-[520px] bg-[White] shadow rounded px-3 py-2 font-medium text-sm text-secondary-light">
+                <div className="max-w-[400px] ml-auto lg:max-w-[520px] bg-[White]  rounded px-3 py-2 font-medium text-sm text-secondary-light">
                   <p>{data.message}</p>
                 </div>
               )}
               {data.message_type === "image" && (
-                <div className="max-w-[400px] ml-auto lg:max-w-[520px] bg-[White] shadow rounded px-3 py-2  ">
+                <div className="max-w-[400px] ml-auto lg:max-w-[520px] bg-[White]  rounded px-3 py-2  ">
                   <img src={data.message} alt="xyz" />
                 </div>
               )}
               {data.message_type === "text_image" && (
                 <>
-                  <div className="max-w-[400px] ml-auto lg:max-w-[520px] bg-[White] shadow rounded px-3 py-2 font-medium text-sm text-secondary-light">
+                  <div className="max-w-[400px] ml-auto lg:max-w-[520px] bg-[White]  rounded px-3 py-2 font-medium text-sm text-secondary-light">
                     <p className="mb-2">{data.messagetext}</p>
 
                     <img src={data.message} alt="xyz" />

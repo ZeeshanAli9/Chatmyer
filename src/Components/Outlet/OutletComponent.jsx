@@ -11,7 +11,7 @@ const OutletComponent = () => {
           <Sidebar />
         </div>
 
-        <div className="lg:w-[100vw] main-outlet  h-[100vh]">
+        <div className="xl:w-[100vw] main-outlet  h-[100vh]">
           <div className="w-[100%]">
             <Topbar />
           </div>

@@ -8,5 +8,6 @@ export const routes = {
     Team: "Team",
     Tickets: "tickets",
     WidgetAppearance: "widget-aqppearance",
-    WidgetSetting:"widget-setting"
+    WidgetSetting: "widget-setting",
+    CreateTicket:"create-ticket",
 }

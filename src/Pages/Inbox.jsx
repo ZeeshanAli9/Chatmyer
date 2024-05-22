@@ -7,6 +7,7 @@ import UserChatTemplate from "../Components/UIElementsTemplate/UserChatTemplate"
 import clossebutton from "../assets/Images/closeButton.png";
 import UserProfileDetailTemplate from "../Components/UIElementsTemplate/UserProfileDetailTemplate";
 import Chatboxfooter from "../Components/Chatbox/Chatboxfooter";
+import downarrow_bg from "../assets/Images/doenarrow_bg.svg";
 const Inbox = () => {
   const [activeTab, setActiveTab] = useState("All");
   const [selectedOption, setSelectedOption] = useState("");
@@ -72,17 +73,14 @@ const Inbox = () => {
                 </div>
               </div>
               <div>
-                <label
-                  htmlFor="sort"
-                  className="py-3 px-4 text-xs font-medium cursor-pointer text-[#84818A]"
-                >
-                  Sort by
-                </label>
-                {/* <select onChange={handleChange} id="sort">
-                  <option value=""></option>
-                  <option value="A to Z">A to Z</option>
-                  <option value="Z to A">Z to A</option>
-                </select> */}
+                <div className="flex items-center gap-1">
+                  <span className=" text-xs font-medium cursor-pointer text-[#84818A]">
+                    Sort by
+                  </span>
+                  <span>
+                    <img src={downarrow_bg} alt="" />
+                  </span>
+                </div>
               </div>
             </div>
             {/* userdata  map */}
@@ -131,7 +129,7 @@ const Inbox = () => {
           </div>
 
           {/* chatbox section */}
-          <div className="min-w-[550px] lg:w-full h-full flex flex-col">
+          <div className="min-w-[730px] xl:w-full h-full flex flex-col">
             <div className="  border-b border-[#E8E8E8] flex items-center justify-between px-6 py-[7px]">
               <div className="flex items-center">
                 {selectedUser && (
@@ -167,7 +165,7 @@ const Inbox = () => {
               </div>
             </div>
             <div
-              className="overflow-y-scroll px-6 mr-3"
+              className="overflow-y-scroll px-6 mr-3 bg-[#FAFAFA]"
               style={{ height: "calc(100vh - 248px)" }}
             >
               {chatboxmessage.map((user) => (

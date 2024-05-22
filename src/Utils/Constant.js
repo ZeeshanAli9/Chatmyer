@@ -1,4 +1,6 @@
 import chatimg from "../assets/Images/Image.png";
+import userimg from "../assets/Topbar/userimg.svg";
+import assignimg from "../assets/Images/img.png";
 export const inboxuser = [
   {
     id: 101,
@@ -459,8 +461,8 @@ export const inprogressticket = [
     Username: "BeneditaTavares",
     message:
       "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
-    status: "Active",
-    newmsg: true,
+    status: "",
+    newmsg:"" ,
   },
   {
     id: 133,
@@ -468,7 +470,7 @@ export const inprogressticket = [
     Username: "Benedita Tavares",
     message:
       "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
-    status: "Active",
+    status: "",
     newmsg: true,
   },
   {
@@ -478,7 +480,7 @@ export const inprogressticket = [
     message:
       "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
     status: "Active",
-    newmsg: true,
+    
   },
   {
     id: 135,
@@ -490,3 +492,180 @@ export const inprogressticket = [
     newmsg: true,
   },
 ];
+
+export const ticketChatboxmessage = [
+  {
+    id: "141",
+    name: "Dylan Sandoval",
+    title: "A complain for the order not fullfill",
+    message: "From the east coast to the west, each river has its own beauty and character. Each river has its own story. Take a look at some America’s best rivers and some.And learn some facts about your favorite rivers. The Harpeth River and its tributaries are home to rich",
+    date: "22/03/24",
+    time: "Today 11:59",
+    User_type : "visitor",
+  },
+  {
+    id: "142",
+    name: "Maxbert",
+    image: userimg,
+    title: "",
+    message: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.",
+    date: "22/03/24",
+    time: "Today 11:59",
+    User_type : "agent",
+  },
+  {
+    id: "143",
+     name: "Dylan Sandoval",
+    title: "",
+    message: "Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour",
+     date: "22/03/24",
+    time: "Today 11:59",
+    User_type : "visitor",
+  },
+  {
+     id: "144",
+    name: "Maxbert",
+    image: userimg,
+    title: "",
+    message: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.",
+    date: "22/03/24",
+    time: "Today 11:59",
+    User_type : "agent",
+  },
+  {
+    id: "145",
+    name: "Dylan Sandoval",
+    title: "",
+    message: "Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour",
+     date: "22/03/24",
+    time: "Today 11:59",
+    User_type : "visitor",
+  },
+]
+
+export const ticketbyuser = [
+  {
+    id: "151",
+    ticketno: "TM2654",
+    totalticket:"6",    
+    title: "Can you help me add a new user to tasker",
+    discription: "Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour",
+    image: userimg,
+    asigneto: "Linnie Rios",
+    team: 'Social Team',
+    status: "Pending",
+    date:"22 Mar,2024",
+  },
+  {
+    id: "152",
+    ticketno: "TM2654",
+    totalticket:"6",    
+    title: "Can you help me add a new user to tasker",
+    discription: "Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour",
+    image: userimg,
+    asigneto: "Linnie Rios",
+    team: 'Marketing Team',
+    status: "Pending",
+    date:"22 Mar,2024",
+  },
+  {
+    id: "153",
+   ticketno: "TM2654",
+    totalticket:"6",    
+    title: "Can you help me add a new user to tasker",
+    discription: "Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour",
+    image: userimg,
+    asigneto: "Linnie Rios",
+    team: 'Social Team',
+    status: "Pending",
+    date:"22 Mar,2024",
+  },
+  {
+    id: "154",
+    ticketno: "TM2654",
+    totalticket:"6",    
+    title: "Can you help me add a new user to tasker",
+    discription: "Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour",
+    image: userimg,
+    asigneto: "Linnie Rios",
+    team: 'Sale Team',
+    status: "Pending",
+    date:"22 Mar,2024",
+  },
+  {
+    id: "155",
+    ticketno: "TM2654",
+    totalticket:"6",    
+    title: "Can you help me add a new user to tasker",
+    discription: "Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour",
+    image: userimg,
+    asigneto: "Linnie Rios",
+    team: 'Sale Team',
+    status: "Pending",
+    date:"22 Mar,2024",
+  },
+  {
+    id: "156",
+    ticketno: "TM2654",
+    totalticket:"6",    
+    title: "Can you help me add a new user to tasker",
+    discription: "Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour",
+    image: userimg,
+    asigneto: "Linnie Rios",
+    team: 'Sale Team',
+    status: "Pending",
+    date:"22 Mar,2024",
+  },
+]
+
+export const transfertraniee = [
+  {
+    id: 161,
+    image: assignimg,
+    name: "Benedita Tavares",
+    email: "Patmiller8765@gmail.com",
+  },
+  {
+    id: 162,
+    image: assignimg,
+    name: "Benedita Tavares",
+    email: "Patmiller8765@gmail.com",
+  },
+  {
+    id: 163,
+    image: assignimg,
+    name: "Benedita Tavares",
+    email: "Patmiller8765@gmail.com",
+  },
+  {
+    id: 164,
+    image: assignimg,
+    name: "Benedita Tavares",
+    email: "Patmiller8765@gmail.com",
+  },
+  {
+    id: 165,
+    image: assignimg,
+    name: "Benedita Tavares",
+    email: "Patmiller8765@gmail.com",
+  },
+  {
+    id: 166,
+    image: assignimg,
+    name: "Benedita Tavares",
+    email: "Patmiller8765@gmail.com",
+  },
+  {
+    id: 167,
+    image: assignimg,
+    name: "Benedita Tavares",
+    email: "Patmiller8765@gmail.com",
+  },
+  {
+    id: 168,
+    image: assignimg,
+    name: "Benedita Tavares",
+    email: "Patmiller8765@gmail.com",
+  },
+]
+

@@ -4,16 +4,22 @@ import userimg from "../../assets/Topbar/userimg.svg";
 import save from "../../assets/Topbar/save_2.svg";
 import archive from "../../assets/Topbar/archive_tick.svg";
 import notification from "../../assets/Topbar/notification_bing.svg";
-import { useLocation } from "react-router-dom";
+import addcircle from "../../assets/Topbar/add_circle.svg";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Topbar = () => {
   const { pathname } = useLocation();
-  console.log(pathname);
+  const navigate = useNavigate();
+
+  const handleCreateTicket = () => {
+    navigate("/create-ticket");
+  };
+
   return (
     <>
       <div className="flex justify-between px-4 py-3 border-b border-[#ebeaed]">
-        <div>
-          <div className=" border-[0.5px] border-[#EBEAED] rounded-md flex items-center justify-between px-2 py-1 min-w-36">
+        <div className="min-w-[380px] max-w-[380px]">
+          <div className=" border-[0.5px] border-[#EBEAED] rounded-md flex items-center justify-between px-2 py-1 w-36">
             <div className="flex items-center">
               <figure className="bg-[#E2C83B] h-6 w-6 rounded-full mr-2 cursor-pointer">
                 <img src="" alt="" />
@@ -27,11 +33,25 @@ const Topbar = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center gap-8">
+        <div
+          className={` lg:w-full flex items-center  gap-8 ${
+            pathname === "/tickets" && "justify-between min-w-[700px]"
+          } ${pathname === "/" && "justify-end"}
+          ${pathname === "/create-ticket" && "justify-end"}`}
+        >
           {pathname === "/tickets" && (
-            <div className="border border-[#E8E8E8] px-2 py-1 rounded-md flex items-center cursor-pointer hover:bg-primary-lighter transition-all duration-300">
-              <span></span>
-              <span className="text-[13px] font-medium text-secondary-darker">
+            <div
+              className="border border-[#E8E8E8] px-2 py-1 rounded-md flex items-center gap-1  cursor-pointer hover:bg-primary-dark transition-all duration-300 group"
+              onClick={handleCreateTicket}
+            >
+              <span className="">
+                <img
+                  src={addcircle}
+                  alt=""
+                  className="addticket filter-none transition-all duration-300"
+                />
+              </span>
+              <span className="text-[13px] font-medium text-secondary-darker group-hover:text-white transition-all duration-300 block">
                 Create Ticket
               </span>
             </div>
