@@ -40,7 +40,7 @@ const UserChatsListTemplate = ({ user, onClick }) => {
         </div>
         <div className="flex flex-col gap-4">
           <div className="text-sm font-medium text-secondary-lighter">
-            {user.time} ago
+            {user.time}
           </div>
 
           <div className="flex items-center justify-end">

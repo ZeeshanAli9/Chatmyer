@@ -4,8 +4,11 @@ import userimg from "../../assets/Topbar/userimg.svg";
 import save from "../../assets/Topbar/save_2.svg";
 import archive from "../../assets/Topbar/archive_tick.svg";
 import notification from "../../assets/Topbar/notification_bing.svg";
+import { useLocation } from "react-router-dom";
 
 const Topbar = () => {
+  const { pathname } = useLocation();
+  console.log(pathname);
   return (
     <>
       <div className="flex justify-between px-4 py-3 border-b border-[#ebeaed]">
@@ -25,40 +28,55 @@ const Topbar = () => {
           </div>
         </div>
         <div className="flex items-center gap-8">
-          <div className="flex items-center gap-4">
+          {pathname === "/tickets" && (
             <div className="border border-[#E8E8E8] px-2 py-1 rounded-md flex items-center cursor-pointer hover:bg-primary-lighter transition-all duration-300">
-              <figure className="mr-2 h-3 w-3">
-                <img src={save} alt="" className="w-full h-full object-cover" />
-              </figure>
+              <span></span>
               <span className="text-[13px] font-medium text-secondary-darker">
-                Saved
+                Create Ticket
               </span>
             </div>
-            <div className="border border-[#E8E8E8] px-2 py-1 rounded-md flex items-center cursor-pointer hover:bg-primary-lighter transition-all duration-300">
-              <figure className="mr-2 h-3 w-3">
-                <img
-                  src={archive}
-                  alt=""
-                  className="w-full h-full object-cover"
-                />
-              </figure>
-              <span className="text-[13px] font-medium text-secondary-darker">
-                Bookmarks
-              </span>
+          )}
+          {/* pathname selet */}
+          {pathname === "/" && (
+            <div className="flex items-center gap-4">
+              <div className="border border-[#E8E8E8] px-2 py-1 rounded-md flex items-center cursor-pointer hover:bg-primary-lighter transition-all duration-300">
+                <figure className="mr-2 h-3 w-3">
+                  <img
+                    src={save}
+                    alt=""
+                    className="w-full h-full object-cover"
+                  />
+                </figure>
+                <span className="text-[13px] font-medium text-secondary-darker">
+                  Saved
+                </span>
+              </div>
+              <div className="border border-[#E8E8E8] px-2 py-1 rounded-md flex items-center cursor-pointer hover:bg-primary-lighter transition-all duration-300">
+                <figure className="mr-2 h-3 w-3">
+                  <img
+                    src={archive}
+                    alt=""
+                    className="w-full h-full object-cover"
+                  />
+                </figure>
+                <span className="text-[13px] font-medium text-secondary-darker">
+                  Bookmarks
+                </span>
+              </div>
+              <div className="border border-[#E8E8E8] px-2 py-1 rounded-md flex items-center cursor-pointer hover:bg-primary-lighter transition-all duration-300">
+                <figure className="mr-2 h-3 w-3">
+                  <img
+                    src={notification}
+                    alt=""
+                    className="w-full h-full object-cover"
+                  />
+                </figure>
+                <span className="text-[13px] font-medium text-secondary-darker">
+                  Notifications{" "}
+                </span>
+              </div>
             </div>
-            <div className="border border-[#E8E8E8] px-2 py-1 rounded-md flex items-center cursor-pointer hover:bg-primary-lighter transition-all duration-300">
-              <figure className="mr-2 h-3 w-3">
-                <img
-                  src={notification}
-                  alt=""
-                  className="w-full h-full object-cover"
-                />
-              </figure>
-              <span className="text-[13px] font-medium text-secondary-darker">
-                Notifications{" "}
-              </span>
-            </div>
-          </div>
+          )}
           <div className="flex items-center cursor-pointe">
             <figure className="h-8 w-8 rounded-full mr-2">
               <img

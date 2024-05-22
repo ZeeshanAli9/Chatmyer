@@ -2,74 +2,123 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    font-family: "Inter", sans-serif;
+body {
+  font-family: "Inter", sans-serif;
 }
-.premium::after{
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-image: url("./assets/SidebarIcons/Shape.svg");
-    background-repeat: no-repeat;
-    width: 120px;
-    height: 100%;
-}
-
-.user_message{
-    display: -webkit-box !important;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-    overflow: hidden;
-    max-height: 20px;
+.premium::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url("./assets/SidebarIcons/Shape.svg");
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 100%;
 }
 
-.custom_scrollbar{
+.user_message {
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  max-height: 20px;
+}
 
+.custom_scrollbar {
 }
 
 /* scroll bar */
 ::-webkit-scrollbar {
-    width: 2px;
-    /* Width of the scrollbar */
-    height: 6px;
-    /* Height of the scrollbar (for horizontal scrollbars) */
+  width: 2px;
+  /* Width of the scrollbar */
+  height: 6px;
+  /* Height of the scrollbar (for horizontal scrollbars) */
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: transparent;
-    /* Background of the scrollbar track */
-    border-radius: 1px;
-    /* Rounded corners for the track */
+  background: transparent;
+  /* Background of the scrollbar track */
+  border-radius: 1px;
+  /* Rounded corners for the track */
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #B6B4BA;
-    /* Color of the scrollbar handle */
-    border-radius: 1px;
-    /* Rounded corners for the handle */
+  background: #b6b4ba;
+  /* Color of the scrollbar handle */
+  border-radius: 1px;
+  /* Rounded corners for the handle */
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #B6B4BA;
-    /* Color of the scrollbar handle when hovered */
+  background: #b0aeb3;
+  /* Color of the scrollbar handle when hovered */
 }
 
 /* Custom scrollbar for Mozilla Firefox */
 * {
-    scrollbar-width: unset;
-    /* Makes the scrollbar thinner */
-    scrollbar-color: #B6B4BA ;
-    /* Handle color and track color */
+  scrollbar-width: unset;
+  /* Makes the scrollbar thinner */
+  scrollbar-color: #b6b4ba;
+  /* Handle color and track color */
 }
 
 /* For Firefox scrollbar on hover */
 *::-webkit-scrollbar-thumb:hover {
-    background: #B6B4BA;
-    /* Color of the scrollbar handle when hovered */
+  background: #b6b4ba;
+  /* Color of the scrollbar handle when hovered */
 }
 
 /* scrollbar */
+
+/* notification toggle button*/
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 28px;
+  height: 16px;
+}
+
+/* Hide default checkbox */
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #eae9ee;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+/* Slider before element (toggle knob) */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 2px;
+  bottom: 1px;
+  background-color: #8f8aa0;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+/* Checked state */
+input:checked + .slider {
+  background-color: #7055da;
+}
+
+input:checked + .slider:before {
+  transform: translateX(11px);
+}
