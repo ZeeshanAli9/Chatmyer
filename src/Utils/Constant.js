@@ -669,3 +669,150 @@ export const transfertraniee = [
   },
 ]
 
+export const announcementData = [
+  {
+    id: 1,
+    title: "Branding know who you are",
+    discription:"Write something here that’ll make your reader excited! You can write anything in here. Get started.",
+    
+  },
+  {
+    id: 2,
+    title: "Branding know who you are",
+    discription:"Write something here that’ll make your reader excited! You can write anything in here. Get started.",
+    
+  },
+  {
+    id: 3,
+    title: "Branding know who you are",
+    discription:"Write something here that’ll make your reader excited! You can write anything in here. Get started.",
+    
+  },
+  {
+    id: 4,
+    title: "Branding know who you are",
+    discription:"Write something here that’ll make your reader excited! You can write anything in here. Get started.",
+    
+  },
+]
+
+export const createticketCustomerlist = [
+  {
+    id: 170,
+    name: "Add customer",
+    email:"",
+  },
+  {
+    id: 171,
+    name: "Benedita Tavares",
+    email:"Patmiller8765@gmail.com",
+  },
+  {
+    id: 172,
+    name: "Dylan Sandoval",
+    email:"Patmiller8765@gmail.com",
+  },
+  {
+    id: 173,
+    name: "Riley Cooper",
+    email:"Patmiller8765@gmail.com",
+  },
+  {
+    id: 174,
+    name: "Quinten Kortum",
+    email:"Patmiller8765@gmail.com",
+  },
+  {
+    id: 175,
+    name: "Marco Alves",
+    email:"Patmiller8765@gmail.com",
+  },
+   {
+    id: 176,
+    name: "Riley Cooper",
+    email:"Patmiller8765@gmail.com",
+  },
+  {
+    id: 177,
+    name: "Quinten Kortum",
+    email:"Patmiller8765@gmail.com",
+  },
+  {
+    id: 178,
+    name: "Marco Alves",
+    email:"Patmiller8765@gmail.com",
+  },
+]
+
+export const AssignedtoTeam = [
+  {
+    id: 181,
+    name:"Default",
+  },
+  {
+id: 182,
+    name: "Team",
+    submenu: [
+      {
+        id: 191,
+        name: "Marketing Team"
+      },
+      {
+id: 192,
+        name: "Sales Team"
+      },
+      {
+id: 193,
+        name: "Accounts Team"
+      },
+      {
+id: 194,
+        name: "Social Team"
+      },
+    ]
+  },
+  {
+    id: 183,
+    name: "Member",
+    submenu: [
+      {
+    id: 195,
+    image: assignimg,
+    name: "Benedita Tavares",
+    email: "Patmiller8765@gmail.com",
+      },
+      {
+    id: 196,
+    image: assignimg,
+    name: "Benedita Tavares",
+    email: "Patmiller8765@gmail.com",
+      },
+      {
+    id: 197,
+    image: assignimg,
+    name: "Benedita Tavares",
+    email: "Patmiller8765@gmail.com",
+      },
+      {
+    id: 198,
+    image: assignimg,
+    name: "Benedita Tavares",
+    email: "Patmiller8765@gmail.com",
+      },
+      {
+    id: 199,
+    image: assignimg,
+    name: "Benedita Tavares",
+    email: "Patmiller8765@gmail.com",
+  },
+  {
+    id: 200,
+    image: assignimg,
+    name: "Benedita Tavares",
+    email: "Patmiller8765@gmail.com",
+  },
+    ]
+  },
+]
+
+

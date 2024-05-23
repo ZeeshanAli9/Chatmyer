@@ -6,7 +6,7 @@ import Topbar from "../Global/Topbar";
 const OutletComponent = () => {
   return (
     <>
-      <div className="flex overflow-y-hidden w-full bg-[#fafafa]">
+      <div className="flex overflow-y-hidden w-full ">
         <div>
           <Sidebar />
         </div>

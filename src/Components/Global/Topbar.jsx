@@ -17,8 +17,8 @@ const Topbar = () => {
 
   return (
     <>
-      <div className="flex justify-between px-4 py-3 border-b border-[#ebeaed] bg-[#ffffff]">
-        <div className="min-w-[380px] max-w-[380px]">
+      <div className="flex justify-between px-6 py-3 border-b border-[#ebeaed] bg-[#ffffff] min-w-[700px] ">
+        <div className="min-w-[310px] lg:min-w-[360px]">
           <div className=" border-[0.5px] border-[#EBEAED] rounded-md flex items-center justify-between px-2 py-1 w-36">
             <div className="flex items-center">
               <figure className="bg-[#E2C83B] h-6 w-6 rounded-full mr-2 cursor-pointer">
@@ -34,9 +34,9 @@ const Topbar = () => {
           </div>
         </div>
         <div
-          className={` lg:w-full flex items-center  gap-8 ${
+          className={` lg:w-full flex items-center justify-end gap-8  ${
             pathname === "/tickets" && "justify-between min-w-[700px]"
-          } ${pathname === "/" && "justify-end"}
+          } ${pathname === "/" && "justify-end min-w-[700px]"}
           ${pathname === "/create-ticket" && "justify-end"}`}
         >
           {pathname === "/tickets" && (
