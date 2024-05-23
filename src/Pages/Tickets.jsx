@@ -71,10 +71,10 @@ const Tickets = () => {
                   </span>
                   <div className="absolute top-3 left-0 z-30 pb-2 hidden group-hover:block  pt-3">
                     <div className="bg-white p-1 shadow rounded min-w-[113px]">
-                      <p className="text-xs font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer">
+                      <p className="text-[13px] font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer">
                         Assign to me
                       </p>
-                      <p className="text-xs font-medium p-2  hover:bg-primary-light rounded cursor-pointer">
+                      <p className="text-[13px] font-medium p-2  hover:bg-primary-light rounded cursor-pointer">
                         Assign to Team
                       </p>
                     </div>
@@ -146,12 +146,12 @@ const Tickets = () => {
 
           {/* chatbox section */}
           {activeTab === "salesteam" && (
-            <div className="min-w-[730px] xl:w-full h-full flex flex-col ">
+            <div className="min-w-[730px] lg:w-full h-full flex flex-col ">
               <div className="  border-b border-[#E8E8E8] flex items-center justify-between px-6 py-[7px] h-[60px]">
                 <div className="flex items-center justify-between w-full">
-                  <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-2">
                     <div className="flex items-center gap-2 ">
-                      <span className="text-lg font-medium text-secondary-dark">
+                      <span className="text-base font-medium text-secondary-dark">
                         ID: xy-jkl876
                       </span>
                       <span className="cursor-pointer">
@@ -167,7 +167,7 @@ const Tickets = () => {
                         className="flex items-center gap-2 border rounded-md border-[#E8E8E8] px-2 py-1 cursor-pointer relative"
                         onClick={() => setTransferAssignee(!transferAssignee)}
                       >
-                        <span className="text-sm font-medium text-secondary-darker">
+                        <span className="text-[13px] font-medium text-secondary-darker">
                           Transfer Assignee
                         </span>
                         <span>
@@ -188,7 +188,7 @@ const Tickets = () => {
                                   <div>{user.email}</div>
                                 </div>
                                 <div>
-                                  <div className="flex items-center gap-2 border rounded-md border-[#E8E8E8] hover:bg-primary-dark hover:text-white px-2 py-1 cursor-pointer text-sm text-secondary-darker>">
+                                  <div className="flex items-center gap-2 border rounded-md border-[#E8E8E8] hover:bg-primary-dark hover:text-white px-2 py-1 cursor-pointer text-[13px] text-secondary-darker>">
                                     Transfer
                                   </div>
                                 </div>
@@ -204,7 +204,7 @@ const Tickets = () => {
                       <span>
                         <img src={people} alt="" />
                       </span>
-                      <span className="text-sm font-medium text-secondary-darker">
+                      <span className="text-[13px] font-medium text-secondary-darker">
                         Sales Team
                       </span>
                       <span>
@@ -213,7 +213,7 @@ const Tickets = () => {
                       <div className="absolute top-5 left-0 z-30 pb-2 hidden group-hover:block w-full  pt-3">
                         <div className="bg-white p-1 shadow rounded ">
                           <p
-                            className="text-xs font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer"
+                            className="text-[13px] font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer"
                             data-tab="allteam"
                             onClick={(e) =>
                               setActivetab(
@@ -224,19 +224,19 @@ const Tickets = () => {
                             All Team
                           </p>
                           <p
-                            className="text-xs font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer"
+                            className="text-[13px] font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer"
                             data-tab="Marketingteam"
                           >
                             Marketing team
                           </p>
                           <p
-                            className="text-xs font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer"
+                            className="text-[13px] font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer"
                             data-tab="accountsteam"
                           >
                             Accounts team
                           </p>
                           <p
-                            className="text-xs font-medium p-2  hover:bg-primary-light rounded cursor-pointer"
+                            className="text-[13px] font-medium p-2  hover:bg-primary-light rounded cursor-pointer"
                             data-tab="socialteam"
                           >
                             Social team
@@ -245,7 +245,7 @@ const Tickets = () => {
                       </div>
                     </div>
                     <div className="flex items-center gap-2">
-                      <div className="h-7 w-7 rounded-full bg-primary-light text-xs font-medium text-primary-dark flex items-center justify-center">
+                      <div className="h-7 w-7 rounded-full bg-primary-light text-[13px] font-medium text-primary-dark flex items-center justify-center">
                         {initialGenerator("Quinten Kortum")}
                       </div>
                       <span className="text-sm font-medium text-secondary-darker">
@@ -261,13 +261,13 @@ const Tickets = () => {
                       </span>
                       <div className="absolute top-5 left-0 z-30 pb-2 hidden group-hover:block  pt-3">
                         <div className="bg-white p-1 shadow rounded ">
-                          <p className="text-xs font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer">
+                          <p className="text-[13px] font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer">
                             Inprogress
                           </p>
-                          <p className="text-xs font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer">
+                          <p className="text-[13px] font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer">
                             Rejected
                           </p>
-                          <p className="text-xs font-medium p-2  hover:bg-primary-light rounded cursor-pointer">
+                          <p className="text-[13px] font-medium p-2  hover:bg-primary-light rounded cursor-pointer">
                             Completed
                           </p>
                         </div>
@@ -285,7 +285,7 @@ const Tickets = () => {
                 ))}
                 <div className=" flex items-center justify-center my-5">
                   <div className="bg-[#E6DFFF] px-3 py-2 flex items-center justify-center rounded">
-                    <p className="text-xs font-medium text-primary-dark ">
+                    <p className="text-[13px] font-medium text-primary-dark ">
                       Ticket close at 11 Jan 2024 at 3PM
                     </p>
                   </div>
@@ -297,14 +297,14 @@ const Tickets = () => {
             </div>
           )}
           {activeTab === "allteam" && (
-            <div className="min-w-[730px] xl:w-full h-full flex flex-col ">
+            <div className="min-w-[730px] lg:w-full h-full flex flex-col ">
               <div className="  border-b border-[#E8E8E8] flex items-center justify-between px-6 py-[7px] h-[60px]">
                 <div className="flex items-center justify-between w-full">
                   <div className="flex items-center gap-3">
                     <div className="flex items-center gap-2 "></div>
                     <div>
                       <div className="flex items-center gap-2 border rounded border-[#E8E8E8] px-2 py-1 cursor-pointer hover:bg-primary-light ">
-                        <span className="text-xs font-medium text-secondary-darker flex items-center">
+                        <span className="text-[13px] font-medium text-secondary-darker flex items-center">
                           Completed{" "}
                           <span className="text-[10px] text-white w-3 h-3 flex items-center justify-center rounded-full ml-1 bg-primary-dark">
                             7
@@ -347,7 +347,7 @@ const Tickets = () => {
                       <div className="absolute top-5 left-0 z-30 pb-2 hidden group-hover:block w-full  pt-3">
                         <div className="bg-white p-1 shadow rounded ">
                           <p
-                            className="text-xs font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer"
+                            className="text-[13px] font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer"
                             data-tab="salesteam"
                             onClick={(e) =>
                               setActivetab(
@@ -358,19 +358,19 @@ const Tickets = () => {
                             Sales team
                           </p>
                           <p
-                            className="text-xs font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer"
+                            className="text-[13px] font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer"
                             data-tab="Marketingteam"
                           >
                             Marketing team
                           </p>
                           <p
-                            className="text-xs font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer"
+                            className="text-[13px] font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer"
                             data-tab="accountsteam"
                           >
                             Accounts team
                           </p>
                           <p
-                            className="text-xs font-medium p-2  hover:bg-primary-light rounded cursor-pointer"
+                            className="text-[13px] font-medium p-2  hover:bg-primary-light rounded cursor-pointer"
                             data-tab="socialteam"
                           >
                             Social team
@@ -388,13 +388,13 @@ const Tickets = () => {
                       </span>
                       <div className="absolute top-5 left-0 z-30 pb-2 hidden group-hover:block  pt-3">
                         <div className="bg-white p-1 shadow rounded ">
-                          <p className="text-xs font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer">
+                          <p className="text-[13px] font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer">
                             Inprogress
                           </p>
-                          <p className="text-xs font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer">
+                          <p className="text-[13px] font-medium p-2 mb-1 hover:bg-primary-light rounded cursor-pointer">
                             Rejected
                           </p>
-                          <p className="text-xs font-medium p-2  hover:bg-primary-light rounded cursor-pointer">
+                          <p className="text-[13px] font-medium p-2  hover:bg-primary-light rounded cursor-pointer">
                             Completed
                           </p>
                         </div>

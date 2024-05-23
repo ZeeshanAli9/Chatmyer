@@ -6,12 +6,15 @@ import Topbar from "../Global/Topbar";
 const OutletComponent = () => {
   return (
     <>
-      <div className="flex overflow-y-hidden">
+      <div className="flex overflow-y-hidden w-full bg-[#fafafa]">
         <div>
           <Sidebar />
         </div>
 
-        <div className="xl:w-[100vw] main-outlet  h-[100vh]">
+        <div
+          className=" lg:w-[100vw] main-outlet  h-[100vh]"
+          style={{ width: `calc(100vw - 240px)` }}
+        >
           <div className="w-[100%]">
             <Topbar />
           </div>

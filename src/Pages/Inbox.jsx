@@ -129,7 +129,7 @@ const Inbox = () => {
           </div>
 
           {/* chatbox section */}
-          <div className="min-w-[730px] xl:w-full h-full flex flex-col">
+          <div className="min-w-[730px] lg:w-full h-full flex flex-col">
             <div className="  border-b border-[#E8E8E8] flex items-center justify-between px-6 py-[7px]">
               <div className="flex items-center">
                 {selectedUser && (
