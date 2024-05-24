@@ -9,5 +9,6 @@ export const routes = {
     Tickets: "tickets",
     WidgetAppearance: "widget-aqppearance",
     WidgetSetting: "widget-setting",
-    CreateTicket:"create-ticket",
+    CreateTicket:"/tickets/create-ticket",
+    WriteHelp:"/help-center/write-help",
 }

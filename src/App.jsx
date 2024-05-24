@@ -11,7 +11,8 @@ import Tickets from "./Pages/Tickets";
 import WidgetAppearance from "./Pages/WidgetAppearance";
 import WidgetSetting from "./Pages/WidgetSetting";
 import { routes } from "./Routes/routes";
-import CreateTicket from "./Components/CreateTicket/CreateTicket";
+import CreateTicket from "./Pages/CreateTicket";
+import WriteHelp from "./Pages/WriteHelp";
 
 const App = () => (
   <>
@@ -23,13 +24,14 @@ const App = () => (
           <Route path={routes.HelpCenter} element={<HelpCenter />} />
           <Route path={routes.Setting} element={<Settings />} />
           <Route path={routes.Team} element={<Teams />} />
-          <Route path={routes.Tickets} element={<Tickets />} />
+          <Route path={routes.Tickets} element={<Tickets />}></Route>
           <Route
             path={routes.WidgetAppearance}
             element={<WidgetAppearance />}
           />
           <Route path={routes.WidgetSetting} element={<WidgetSetting />} />
           <Route path={routes.CreateTicket} element={<CreateTicket />} />
+          <Route path={routes.WriteHelp} element={<WriteHelp />} />
         </Route>
 
         <Route path={routes.login} element={<Login />} />

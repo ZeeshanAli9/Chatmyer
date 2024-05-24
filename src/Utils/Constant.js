@@ -745,10 +745,7 @@ export const createticketCustomerlist = [
 ]
 
 export const AssignedtoTeam = [
-  {
-    id: 181,
-    name:"Default",
-  },
+  
   {
 id: 182,
     name: "Team",
@@ -784,35 +781,129 @@ id: 194,
       {
     id: 196,
     image: assignimg,
-    name: "Benedita Tavares",
+    name: "Dylan Sandoval",
     email: "Patmiller8765@gmail.com",
       },
       {
     id: 197,
     image: assignimg,
-    name: "Benedita Tavares",
+    name: "Riley Cooper",
     email: "Patmiller8765@gmail.com",
       },
       {
     id: 198,
     image: assignimg,
-    name: "Benedita Tavares",
+    name: "Riley Cooper",
     email: "Patmiller8765@gmail.com",
       },
       {
     id: 199,
     image: assignimg,
-    name: "Benedita Tavares",
+    name: "Quinten Kortum",
     email: "Patmiller8765@gmail.com",
   },
   {
     id: 200,
     image: assignimg,
-    name: "Benedita Tavares",
+    name: "Marco Alves",
     email: "Patmiller8765@gmail.com",
   },
     ]
   },
+]
+
+export const Helpcenter = [
+  {
+    id: 211,
+    customerId: "KIR23654",
+    title: "Branding know who you are",
+    image: userimg,
+    name: "Patrick Miller",
+    Createdat: "Thu, 20 Feb 2024",
+    status:"Un-published",
+  },
+  {
+    id: 212,
+    customerId: "KIR23654",
+    title: "Branding know who you are",
+    image: userimg,
+    name: "Patrick Miller",
+    Createdat: "Thu, 20 Feb 2024",
+    status:"Un-published",
+  },
+  {
+    id: 213,
+    customerId: "KIR23654",
+    title: "Branding know who you are",
+    image: userimg,
+    name: "Patrick Miller",
+    Createdat: "Thu, 20 Feb 2024",
+    status:"Un-published",
+  },
+  {
+    id: 214,
+    customerId: "KIR23654",
+    title: "Branding know who you are",
+    image: userimg,
+    name: "Patrick Miller",
+    Createdat: "Thu, 20 Feb 2024",
+    status:"Un-published",
+  },
+  {
+    id: 215,
+    customerId: "KIR23654",
+    title: "Branding know who you are",
+    image: userimg,
+    name: "Patrick Miller",
+    Createdat: "Thu, 20 Feb 2024",
+    status:"Un-published",
+  },
+  {
+    id: 216,
+    customerId: "KIR23654",
+    title: "Branding know who you are",
+    image: userimg,
+    name: "Patrick Miller",
+    Createdat: "Thu, 20 Feb 2024",
+    status:"Un-published",
+  },
+  {
+    id: 217,
+    customerId: "KIR23654",
+    title: "Branding know who you are",
+    image: userimg,
+    name: "Patrick Miller",
+    Createdat: "Thu, 20 Feb 2024",
+    status:"Un-published",
+  },
+  {
+    id: 218,
+    customerId: "KIR23654",
+    title: "Branding know who you are",
+    image: userimg,
+    name: "Patrick Miller",
+    Createdat: "Thu, 20 Feb 2024",
+    status:"Un-published",
+  },
+  {
+    id: 219,
+    customerId: "KIR23654",
+    title: "Branding know who you are",
+    image: userimg,
+    name: "Patrick Miller",
+    Createdat: "Thu, 20 Feb 2024",
+    status:"Un-published",
+  },
+  {
+    id: 220,
+    customerId: "KIR23654",
+    title: "Branding know who you are",
+    image: userimg,
+    name: "Patrick Miller",
+    Createdat: "Thu, 20 Feb 2024",
+    status:"Un-published",
+  },
+ 
 ]
 
 

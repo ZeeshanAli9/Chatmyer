@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import dots from "../assets/Images/announcmentdots.svg";
+
 import edit from "../assets/Images/edit.svg";
 import del from "../assets/Images/trash_announcement.svg";
 import close from "../assets/Images/closeButton.png";

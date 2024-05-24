@@ -22,7 +22,11 @@ export default {
         darker: '#1C1C1C',
       },
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(180deg, rgba(112, 85, 218, 0.9) 44.04%, rgba(211, 176, 255, 0.594) 90.44%)',
+      },
+    },
   },
   plugins: [],
 }

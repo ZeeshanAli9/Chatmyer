@@ -6,13 +6,14 @@ import archive from "../../assets/Topbar/archive_tick.svg";
 import notification from "../../assets/Topbar/notification_bing.svg";
 import addcircle from "../../assets/Topbar/add_circle.svg";
 import { useLocation, useNavigate } from "react-router-dom";
+import { routes } from "../../Routes/routes";
 
 const Topbar = () => {
   const { pathname } = useLocation();
   const navigate = useNavigate();
 
   const handleCreateTicket = () => {
-    navigate("/create-ticket");
+    navigate(`${routes.CreateTicket}`);
   };
 
   return (

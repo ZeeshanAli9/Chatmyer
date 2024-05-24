@@ -15,6 +15,7 @@ const Inbox = () => {
   const [lightcolor, setLightcolor] = useState("");
   const [userDetail, setUserDetail] = useState(false);
   const [selectedUserDetail, setSelectedUserDetail] = useState("");
+  const [activeChat, setActiveChat] = useState("active");
   useEffect(() => {
     setLightcolor(generateColor());
   }, []);
