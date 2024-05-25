@@ -1,7 +1,5 @@
 export const routes = {
     login: "/login",
-    
-
     HelpCenter: "help-center",
     Announcment: "announcement",
     Setting: "settings",
@@ -11,4 +9,6 @@ export const routes = {
     WidgetSetting: "widget-setting",
     CreateTicket:"/tickets/create-ticket",
     WriteHelp:"/help-center/write-help",
+    VerifyOtp:"/settings/verify-otp",
+    ChangePassword:"/settings/change-password",
 }

@@ -47,7 +47,7 @@ const WriteHelp = () => {
               htmlFor="title"
               className="font-medium text-secondary-light text-sm block mb-3"
             >
-              Subject
+              Title
             </label>
             <input
               type="text"

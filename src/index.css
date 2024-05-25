@@ -24,16 +24,31 @@ body {
   max-height: 20px;
 }
 
-.premium::after {
+.custombg::after {
   content: "";
   position: absolute;
   right: 0;
   top: 0;
   background-image: url("./assets/Images/Base.svg");
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
+.verifyotp::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url("./assets/Images/verifyotp.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 
 /* scroll bar */
 ::-webkit-scrollbar {

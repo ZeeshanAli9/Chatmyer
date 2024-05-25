@@ -13,9 +13,13 @@ import WidgetSetting from "./Pages/WidgetSetting";
 import { routes } from "./Routes/routes";
 import CreateTicket from "./Pages/CreateTicket";
 import WriteHelp from "./Pages/WriteHelp";
+import VerifyOTP from "./Pages/VerifyOTP";
+import ChangePassword from "./Pages/ChangePassword";
+import { Toaster } from "react-hot-toast";
 
 const App = () => (
   <>
+    <Toaster />
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<OutletComponent />}>
@@ -32,6 +36,8 @@ const App = () => (
           <Route path={routes.WidgetSetting} element={<WidgetSetting />} />
           <Route path={routes.CreateTicket} element={<CreateTicket />} />
           <Route path={routes.WriteHelp} element={<WriteHelp />} />
+          <Route path={routes.VerifyOtp} element={<VerifyOTP />} />
+          <Route path={routes.ChangePassword} element={<ChangePassword />} />
         </Route>
 
         <Route path={routes.login} element={<Login />} />

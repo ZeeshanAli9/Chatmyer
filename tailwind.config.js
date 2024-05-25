@@ -24,7 +24,8 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'custom-gradient': 'linear-gradient(180deg, rgba(112, 85, 218, 0.9) 44.04%, rgba(211, 176, 255, 0.594) 90.44%)',
+        'custom-gradient': 'linear-gradient(180deg, rgba(112, 85, 218, 0.1) 44.04%, rgba(211, 176, 255, 0.2) 90.44%)',
+        'custom-gradient-sec': 'linear-gradient(180deg, rgba(112, 85, 218, 0.02) 44.04%, rgba(211, 176, 255, 0.01) 90.44%)',
       },
     },
   },
