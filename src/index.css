@@ -176,3 +176,16 @@ filter: brightness(0) saturate(100%) invert(33%) sepia(98%) saturate(1042%) hue-
 .announcement input:checked +  .slider:before {
   transform: translateX(20px);
 }
+
+input.colorfield[type="color"]::-webkit-color-swatch {
+  border: none;
+}
+
+input[type=checkbox]:checked {
+  background-color: #a77e2d !important;
+  color: #ffffff !important;
+}
+
+input[type='checkbox']:after {
+  box-shadow: none !important;
+}

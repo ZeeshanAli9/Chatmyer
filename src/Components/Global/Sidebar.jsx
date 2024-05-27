@@ -2,6 +2,7 @@ import React from "react";
 import mainLogo from "../../assets/SidebarIcons/mainLogo.svg";
 import forward from "../../assets/SidebarIcons/forward_item.svg";
 import { Link, NavLink } from "react-router-dom";
+import { routes } from "../../Routes/routes";
 
 const Sidebar = () => {
   return (
@@ -93,7 +94,7 @@ const Sidebar = () => {
                   </div>
                 )}
               </NavLink>
-              <NavLink to="/tickets" className="">
+              <NavLink to={routes.Tickets} className="">
                 {({ isActive }) => (
                   <div
                     className={` flex p-3 rounded ${
@@ -125,7 +126,7 @@ const Sidebar = () => {
                   </div>
                 )}
               </NavLink>
-              <NavLink to="/help-center" className="">
+              <NavLink to={routes.HelpCenter} className="">
                 {({ isActive }) => (
                   <div
                     className={` flex p-3 rounded ${
@@ -161,7 +162,7 @@ const Sidebar = () => {
                   </div>
                 )}
               </NavLink>
-              <NavLink to="/widget-aqppearance" className="">
+              <NavLink to={routes.WidgetAppearance} className="">
                 {({ isActive }) => (
                   <div
                     className={` flex p-3 rounded ${
@@ -202,7 +203,7 @@ const Sidebar = () => {
                   </div>
                 )}
               </NavLink>
-              <NavLink to="/widget-setting" className="">
+              <NavLink to={routes.WidgetSetting} className="">
                 {({ isActive }) => (
                   <div
                     className={` flex p-3 rounded ${
@@ -255,7 +256,7 @@ const Sidebar = () => {
                   </div>
                 )}
               </NavLink>
-              <NavLink to="/Team" className="">
+              <NavLink to={routes.Team} className="">
                 {({ isActive }) => (
                   <div
                     className={` flex p-3 rounded ${
@@ -318,7 +319,7 @@ const Sidebar = () => {
                   </div>
                 )}
               </NavLink>
-              <NavLink to="/announcement" className="">
+              <NavLink to={routes.Announcment} className="">
                 {({ isActive }) => (
                   <div
                     className={` flex p-3 rounded ${
@@ -386,7 +387,7 @@ const Sidebar = () => {
                 </div>
                 <div className="border-t border-[#EBEAED]">
                   <div className="mt-4">
-                    <NavLink to="/settings" className="">
+                    <NavLink to={routes.Setting} className="">
                       {({ isActive }) => (
                         <div
                           className={` flex p-3 rounded ${

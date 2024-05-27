@@ -1,6 +1,14 @@
 import chatimg from "../assets/Images/Image.png";
 import userimg from "../assets/Topbar/userimg.svg";
 import assignimg from "../assets/Images/img.png";
+import documenttext from "../assets/Images/document_text.svg";
+import widgethide from "../assets/Images/widgethide.svg";
+import helpcenter from "../assets/Images/helpcenter.svg";
+import url from "../assets/Images/url.svg";
+import copy from "../assets/Images/document_copy.svg";
+
+
+
 export const inboxuser = [
   {
     id: 101,
@@ -904,6 +912,75 @@ export const Helpcenter = [
     status:"Un-published",
   },
  
+]
+
+export const custommessage = [
+  {
+    id:221,
+    message:"Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy"
+  },
+  {
+    id:222,
+    message:"Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy"
+  },
+  {
+    id:223,
+    message:"Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy"
+  },
+  {
+    id:224,
+    message:"Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy"
+  },
+  {
+    id:225,
+    message:"Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy"
+  },
+  {
+    id:226,
+    message:"Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy"
+  },
+  {
+    id:227,
+    message:"Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy"
+  },
+  {
+    id:228,
+    message:"Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy"
+  },
+  {
+    id:229,
+    message:"Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy"
+  },
+]
+
+export const widgetsetting = [
+  {
+    id: 231,
+    img: documenttext,
+    name: "Tickets",
+    hovermsg:"Kindly add this link tag before the closing of ",
+  },
+  {
+    id: 232,
+    img: helpcenter,
+    name: "Help Centre",
+    hovermsg:"Kindly add this link tag before the closing of ",
+  },
+  {
+    id: 233,
+    img: widgethide,
+    name: "Widget Hide",
+    hovermsg:"Kindly add this link tag before the closing of ",
+  },
+  {
+    id: 234,
+    img: url,
+    name: "Direct url",
+    hovermsg: "Kindly add this link tag before the closing of ",
+    url: "https://chatmyer.com",
+    copyimg: copy,
+    
+  },
 ]
 
 

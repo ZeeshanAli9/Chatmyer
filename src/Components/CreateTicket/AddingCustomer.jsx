@@ -33,15 +33,23 @@ const AddingCustomer = () => {
           }))
         }
       >
-        <div className="h-8">
-          <h2 className="font-medium text-sm text-secondary-dark">
-            {selectcustomer?.title}
-          </h2>
+        {selectcustomer?.title === "Add customer" ? (
+          <div className="flex items-center">
+            <h2 className="font-medium text-sm text-secondary-dark">
+              {selectcustomer?.title}
+            </h2>
+          </div>
+        ) : (
+          <div className="h-8">
+            <h2 className="font-medium text-sm text-secondary-dark">
+              {selectcustomer?.title}
+            </h2>
 
-          <p className="font-medium text-xs text-secondary-lighter">
-            {selectcustomer?.email}
-          </p>
-        </div>
+            <p className="font-medium text-xs text-secondary-lighter">
+              {selectcustomer?.email}
+            </p>
+          </div>
+        )}{" "}
         {selectcustomer.title === "Add customer" ? (
           <div>
             <img src={dropdownarrow} alt="" />

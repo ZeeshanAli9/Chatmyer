@@ -16,6 +16,7 @@ import WriteHelp from "./Pages/WriteHelp";
 import VerifyOTP from "./Pages/VerifyOTP";
 import ChangePassword from "./Pages/ChangePassword";
 import { Toaster } from "react-hot-toast";
+import WidgetAppereanceMessage from "./Pages/WidgetAppereanceMessage";
 
 const App = () => (
   <>
@@ -38,6 +39,10 @@ const App = () => (
           <Route path={routes.WriteHelp} element={<WriteHelp />} />
           <Route path={routes.VerifyOtp} element={<VerifyOTP />} />
           <Route path={routes.ChangePassword} element={<ChangePassword />} />
+          <Route
+            path={routes.WidgetAppearancemessage}
+            element={<WidgetAppereanceMessage />}
+          />
         </Route>
 
         <Route path={routes.login} element={<Login />} />
