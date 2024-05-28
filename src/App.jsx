@@ -17,6 +17,7 @@ import VerifyOTP from "./Pages/VerifyOTP";
 import ChangePassword from "./Pages/ChangePassword";
 import { Toaster } from "react-hot-toast";
 import WidgetAppereanceMessage from "./Pages/WidgetAppereanceMessage";
+import TeamAgent from "./Pages/TeamAgent";
 
 const App = () => (
   <>
@@ -29,7 +30,8 @@ const App = () => (
           <Route path={routes.HelpCenter} element={<HelpCenter />} />
           <Route path={routes.Setting} element={<Settings />} />
           <Route path={routes.Team} element={<Teams />} />
-          <Route path={routes.Tickets} element={<Tickets />}></Route>
+          <Route path={routes.TeamAgent} element={<TeamAgent />} />
+          <Route path={routes.Tickets} element={<Tickets />} />
           <Route
             path={routes.WidgetAppearance}
             element={<WidgetAppearance />}

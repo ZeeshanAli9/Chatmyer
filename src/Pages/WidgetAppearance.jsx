@@ -169,7 +169,7 @@ const WidgetAppearance = () => {
               <div className="p-1 rounded-md border-[3px] border-[#F4F1FF]  h-[220px] flex justify-between mx-auto flex-col w-[190px] mb-4">
                 <div className="flex flex-col gap-2">
                   <div className="bg-[#F4F1FF] rounded-md py-10 flex items-center justify-center">
-                    <img src={widgetgallery} alt="" />
+                    <img src={uploadedImage.imageUrl} alt="" />
                   </div>
                 </div>
                 <div className="flex items-center gap-2">

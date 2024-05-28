@@ -31,9 +31,9 @@ const WidgetSetting = () => {
                 <span className="text-lg text-secondary-dark font-semibold">
                   {user.name}
                 </span>
-                <div className="ml-3 relative">
-                  <img src={info} alt="" className="cursor-pointer group" />
-                  <div className="absolute z-50 top-0 right-0 hidden group-hover:block">
+                <div className="ml-3 relative group cursor-pointer">
+                  <img src={info} alt="" className="cursor-pointer " />
+                  <div className="absolute z-50 top-2 right-3 hidden group-hover:block bg-white p-2 rounded w-32 text-xs text-secondary-dark shadow-md">
                     {user.hovermsg}
                   </div>
                 </div>
@@ -51,9 +51,9 @@ const WidgetSetting = () => {
                     <span>Enable</span>
                     <div className="flex items-center gap-16">
                       <div className="flex announcement">
-                        <label class="toggle">
+                        <label className="toggle">
                           <input type="checkbox" id="toggle-checkbox" />
-                          <span class="slider"></span>
+                          <span className="slider"></span>
                         </label>
                       </div>
                     </div>

@@ -98,7 +98,7 @@ const Topbar = () => {
               </div>
             </div>
           )}
-          <div className="flex items-center cursor-pointe">
+          <div className="flex items-center cursor-pointer">
             <figure className="h-8 w-8 rounded-full mr-2">
               <img
                 src={userimg}

@@ -301,7 +301,6 @@ const Tickets = () => {
               <div className="  border-b border-[#E8E8E8] flex items-center justify-between px-6 py-[7px] h-[60px]">
                 <div className="flex items-center justify-between w-full">
                   <div className="flex items-center gap-3">
-                    <div className="flex items-center gap-2 "></div>
                     <div>
                       <div className="flex items-center gap-2 border rounded border-[#E8E8E8] px-2 py-1 cursor-pointer hover:bg-primary-light ">
                         <span className="text-[13px] font-medium text-secondary-darker flex items-center">

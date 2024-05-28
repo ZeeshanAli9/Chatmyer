@@ -983,4 +983,116 @@ export const widgetsetting = [
   },
 ]
 
+export const TeamHeaderCategory = [
+  {
+    id: 241,
+    name: "Teams",
+    
+  },
+  {
+    id: 242,
+    name: "Users",
+    
+  },
+]
+
+export const TeamUserData = [
+  {
+    id: 251,
+    emial: "Patmiller8765@gmail.com",
+    image: userimg,
+    name: "Patrick Miller",
+    role:"Admin",
+    status:"Active",
+  },
+  {
+    id: 252,
+    emial: "LorettaD85@gmail.com",
+    image: userimg,
+    name: "Loretta Day",
+    role:"Agent",
+    status:"De-Active",
+  },
+  {
+    id: 253,
+    emial: "RileyCoo8765@gmail.com",
+    image: userimg,
+    name: "Riley Cooper",
+    role:"Agent",
+    status:"Active",
+  },
+  {
+    id: 254,
+    emial: "LorettaD85@gmail.com",
+    image: userimg,
+    name: "Loretta Day",
+    role:"Admin",
+    status:"De-Active",
+  },
+  {
+    id: 255,
+    emial: "Patmiller8765@gmail.com",
+    image: userimg,
+    name: "Patrick Miller",
+    role:"Admin",
+    status:"Active",
+  },
+  {
+    id: 256,
+    emial: "Essieward65@gmail.com",
+    image: userimg,
+    name: "Essie Ward",
+    role:"Agent",
+    status:"De-Active",
+  },
+]
+
+export const Teamagent = [
+  {
+    id: 261,
+    team: "Marketing Team",
+    users:[
+  { name: 'John Doe', image: userimg  },
+  { name: 'Jane Smith', image: userimg  },
+  { name: 'Rick Evans', image: '' }, // No image provided
+  { name: 'Mary Johnson', image: userimg  },
+  { name: 'Paul Brown', image: userimg },
+  { name: 'Lisa White', image: userimg  },
+],
+  },
+  {
+    id: 262,
+    team: "Sales team",
+    users:[
+  { name: 'John Doe', image: userimg  },
+  { name: 'Jane Smith', image: userimg  },
+  { name: 'Rick Evans', image: '' }, // No image provided
+  
+],
+  },
+  {
+    id: 263,
+    team: "Accounts team",
+    users:[
+  { name: 'John Doe', image: userimg  },
+  { name: 'Jane Smith', image: userimg  },
+  { name: 'Rick Evans', image: '' }, // No image provided
+  { name: 'Mary Johnson', image: userimg  },
+  
+],
+  },
+  {
+    id: 264,
+    team: "Social team",
+    users:[
+  { name: 'John Doe', image: userimg  },
+  { name: 'Jane Smith', image: userimg  },
+  { name: 'Rick Evans', image: '' }, // No image provided
+  { name: 'Mary Johnson', image: userimg  },
+  
+],
+  },
+  
+]
+
 

@@ -24,7 +24,10 @@ const VerifyOTP = () => {
   return (
     <>
       <div className=" bg-white px-6 py-3 flex items-center border-b border-[#E8E8E8]">
-        <span className="border border-[#E8E8E8] rounded px-3 py-1 flex items-center gap-2 cursor-pointer hover:bg-primary-lighter group transition-all">
+        <span
+          className="border border-[#E8E8E8] rounded px-3 py-1 flex items-center gap-2 cursor-pointer hover:bg-primary-lighter group transition-all"
+          onClick={() => navigate(-1)}
+        >
           <span>
             <svg
               width="14"

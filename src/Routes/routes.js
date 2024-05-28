@@ -4,6 +4,7 @@ export const routes = {
     Announcment: "announcement",
     Setting: "settings",
     Team: "Team",
+    TeamAgent: "Team-agent",
     Tickets: "tickets",
     WidgetAppearance: "widget-appearance",
     WidgetAppearancemessage: "/widget-appearance/widget-message",
