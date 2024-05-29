@@ -7,10 +7,10 @@ import { routes } from "../../Routes/routes";
 const Sidebar = () => {
   return (
     <>
-      <div className="bg-[#FAFAFA] w-[240px] lg:w-[300px] h-[100vh] p-5 border-r border-[#EBEAED] ">
+      <div className="bg-[#FAFAFA] w-[240px] lg:w-[300px] h-[100vh] py-5 border-r border-[#EBEAED] ">
         <div>
           {/* main img */}
-          <div className="flex items-center justify-between py-2 ">
+          <div className="flex items-center justify-between py-2 px-5">
             <div className="cursor-pointer">
               <Link to="/">
                 <img src={mainLogo} alt="" />
@@ -49,7 +49,7 @@ const Sidebar = () => {
             className="flex flex-col justify-between  py-4 overflow-auto"
             style={{ height: "calc(100vh - 78px)" }}
           >
-            <div className="grid gap-2 ">
+            <div className="grid gap-2 px-5">
               <NavLink to="/" className="">
                 {({ isActive }) => (
                   <div

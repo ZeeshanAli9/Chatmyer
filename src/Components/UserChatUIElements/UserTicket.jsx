@@ -1,6 +1,6 @@
 import React from "react";
 
-const UserTicketTemplate = ({ data }) => {
+const UserTicket = ({ data }) => {
   return (
     <>
       <div
@@ -56,4 +56,4 @@ const UserTicketTemplate = ({ data }) => {
   );
 };
 
-export default UserTicketTemplate;
+export default UserTicket;

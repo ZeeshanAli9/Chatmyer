@@ -107,7 +107,7 @@ const TeamUser = () => {
               className="text-center border-t border-b border-[#EBEAED] hover:bg-primary-lighter "
               key={user.id}
             >
-              <td className="text-sm text-secondary-dark font-medium py-5 px-5 ">
+              <td className="text-sm text-secondary-dark font-medium py-5 px-4 ">
                 <div className="flex items-center gap-3 justify-start">
                   <span>
                     <img src={user.image} alt="" />

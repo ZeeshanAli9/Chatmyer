@@ -18,6 +18,8 @@ import ChangePassword from "./Pages/ChangePassword";
 import { Toaster } from "react-hot-toast";
 import WidgetAppereanceMessage from "./Pages/WidgetAppereanceMessage";
 import TeamAgent from "./Pages/TeamAgent";
+import InviteNewUser from "./Pages/InviteNewUser";
+import AddNewTeam from "./Pages/AddNewTeam";
 
 const App = () => (
   <>
@@ -30,6 +32,8 @@ const App = () => (
           <Route path={routes.HelpCenter} element={<HelpCenter />} />
           <Route path={routes.Setting} element={<Settings />} />
           <Route path={routes.Team} element={<Teams />} />
+          <Route path={routes.CreateNewTeam} element={<AddNewTeam />} />
+          <Route path={routes.InviteUser} element={<InviteNewUser />} />
           <Route path={routes.TeamAgent} element={<TeamAgent />} />
           <Route path={routes.Tickets} element={<Tickets />} />
           <Route

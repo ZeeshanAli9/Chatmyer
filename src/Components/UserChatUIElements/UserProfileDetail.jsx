@@ -5,7 +5,8 @@ import notification from "../../assets/Images/notificationbing.svg";
 import userlocation from "../../assets/Images/location.svg";
 import trash from "../../assets/Images/trash.svg";
 import block from "../../assets/Images/block.svg";
-const UserProfileDetailTemplate = ({ data }) => {
+
+const UserProfileDetail = ({ data }) => {
   const lightcolor = generateColor();
   return (
     <>
@@ -102,4 +103,4 @@ const UserProfileDetailTemplate = ({ data }) => {
   );
 };
 
-export default UserProfileDetailTemplate;
+export default UserProfileDetail;

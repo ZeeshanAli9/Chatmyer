@@ -7,7 +7,7 @@ import {
 import seenmsg from "../../assets/Images/done_all.svg";
 import profile from "../../assets/Topbar/userimg.svg";
 
-const UserChatTemplate = ({ data, lightcolor }) => {
+const UserChat = ({ data, lightcolor }) => {
   return (
     <>
       <div key={data.id} className="first:mt-4 last:4">
@@ -97,9 +97,16 @@ const UserChatTemplate = ({ data, lightcolor }) => {
             </div>
           </div>
         )}
+        <div className=" flex items-center justify-center my-5">
+          <div className="  flex items-center justify-center drop-shadow-sm">
+            <p className="text-xs font-medium px-3 py-2 bg-white text-secondary-lighter border border-[#E8E8E8] rounded ">
+              11 Jan 2024
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );
 };
 
-export default UserChatTemplate;
+export default UserChat;

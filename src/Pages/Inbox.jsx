@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { chatboxmessage, inboxuser } from "../Utils/Constant";
 import menudots from "../assets/chatbox/menudots.svg";
-import UserChatsListTemplate from "../Components/UIElementsTemplate/UserChatsListTemplate";
+import UserChatsList from "../Components/UserChatUIElements/UserChatsList";
 import { generateColor, initialGenerator } from "../Utils/Helpermethods";
-import UserChatTemplate from "../Components/UIElementsTemplate/UserChatTemplate";
+import UserChat from "../Components/UserChatUIElements/UserChat";
 import clossebutton from "../assets/Images/closeButton.png";
-import UserProfileDetailTemplate from "../Components/UIElementsTemplate/UserProfileDetailTemplate";
+import UserProfileDetail from "../Components/UserChatUIElements/UserProfileDetail";
 import Chatboxfooter from "../Components/Chatbox/Chatboxfooter";
 import downarrow_bg from "../assets/Images/doenarrow_bg.svg";
 const Inbox = () => {
@@ -95,7 +95,7 @@ const Inbox = () => {
             >
               {activeTab === "All" &&
                 inboxuser?.map((user) => (
-                  <UserChatsListTemplate
+                  <UserChatsList
                     user={user}
                     onClick={() => hanldeUserClick(user.id)}
                   />
@@ -103,7 +103,7 @@ const Inbox = () => {
               {activeTab === "Unread" &&
                 inboxuser
                   ?.filter((user) => user.unread)
-                  .map((user) => <UserChatsListTemplate user={user} />)}
+                  .map((user) => <UserChatsList user={user} />)}
 
               {/* purpose : bakground color  */}
               {userDetail && (
@@ -121,7 +121,7 @@ const Inbox = () => {
                     </span>
                   </div>
                   {selectedUserDetail.map((user) => (
-                    <UserProfileDetailTemplate data={user} />
+                    <UserProfileDetail data={user} />
                   ))}
                 </div>
               )}
@@ -130,7 +130,7 @@ const Inbox = () => {
           </div>
 
           {/* chatbox section */}
-          <div className="min-w-[730px] lg:w-full h-full flex flex-col">
+          <div className="min-w-[700px] lg:w-full h-full flex flex-col">
             <div className="  border-b border-[#E8E8E8] flex items-center justify-between px-6 py-[7px]">
               <div className="flex items-center">
                 {selectedUser && (
@@ -166,12 +166,19 @@ const Inbox = () => {
               </div>
             </div>
             <div
-              className="overflow-y-scroll px-6 mr-3 bg-[#FAFAFA]"
+              className="overflow-y-scroll px-6 mr-1 bg-[#FAFAFA]"
               style={{ height: "calc(100vh - 248px)" }}
             >
               {chatboxmessage.map((user) => (
-                <UserChatTemplate data={user} lightcolor={lightcolor} />
+                <UserChat data={user} lightcolor={lightcolor} />
               ))}
+              <div className=" flex items-center justify-center my-5">
+                <div className="bg-[#E6DFFF] px-3 py-2 flex items-center justify-center rounded">
+                  <p className="text-[13px] font-medium text-primary-dark ">
+                    Ticket close at 11 Jan 2024 at 3PM
+                  </p>
+                </div>
+              </div>
             </div>
             <Chatboxfooter />
           </div>

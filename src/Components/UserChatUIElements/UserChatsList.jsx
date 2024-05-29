@@ -3,7 +3,7 @@ import { generateColor, initialGenerator } from "../../Utils/Helpermethods";
 import seenmsg from "../../assets/Images/done_all.svg";
 import { useLocation } from "react-router-dom";
 
-const UserChatsListTemplate = ({ user, onClick }) => {
+const UserChatsList = ({ user, onClick }) => {
   const [lightcolor, setLightcolor] = useState("");
   useEffect(() => {
     setLightcolor(generateColor());
@@ -77,4 +77,4 @@ const UserChatsListTemplate = ({ user, onClick }) => {
   );
 };
 
-export default UserChatsListTemplate;
+export default UserChatsList;

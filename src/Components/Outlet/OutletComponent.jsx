@@ -15,11 +15,13 @@ const OutletComponent = () => {
           className=" lg:w-[100vw] main-outlet  h-[100vh]"
           style={{ width: `calc(100vw - 240px)` }}
         >
-          <div className="w-[100%]">
+          <div>
             <Topbar />
           </div>
           <main>
-            <Outlet />
+            <div className="min-w-[700px]">
+              <Outlet />
+            </div>
           </main>
         </div>
       </div>

@@ -30,7 +30,7 @@ export const inboxuser = [
       "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
     time: "2m ago",
     msssagestatus: "seen",
-    newmsg: true,
+    newmsg: false,
   },
   {
     id: 103,
@@ -52,7 +52,7 @@ export const inboxuser = [
     time: "2m ago",
     unread: "3",
     status: "Active",
-    newmsg: false,
+    newmsg: true,
   },
   {
     id: 105,
@@ -63,7 +63,7 @@ export const inboxuser = [
     time: "2m ago",
     unread: "3",
     status: "Active",
-    newmsg: false,
+    newmsg: true,
   },
   {
     id: 106,
@@ -73,7 +73,7 @@ export const inboxuser = [
       "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
     time: "2m ago",
     msssagestatus: "seen",
-    newmsg: true,
+    newmsg: false,
   },
   {
     id: 107,
@@ -83,7 +83,7 @@ export const inboxuser = [
       "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
     time: "2m ago",
     msssagestatus: "seen",
-    newmsg: true,
+    newmsg: false,
   },
   {
     id: 108,
@@ -105,7 +105,7 @@ export const inboxuser = [
     time: "2m ago",
     unread: "3",
     status: "Active",
-    newmsg: false,
+    newmsg: true,
   },
   {
     id: 110,
@@ -116,7 +116,7 @@ export const inboxuser = [
     time: "2m ago",
     unread: "3",
     status: "Active",
-    newmsg: false,
+    newmsg: true,
   },
   {
     id: 111,
@@ -126,7 +126,7 @@ export const inboxuser = [
       "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
     time: "2m ago",
     msssagestatus: "seen",
-    newmsg: true,
+    newmsg: false,
   },
   {
     id: 112,
@@ -136,7 +136,7 @@ export const inboxuser = [
       "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
     time: "2m ago",
     msssagestatus: "seen",
-    newmsg: true,
+    newmsg: false,
   },
   {
     id: 113,
@@ -158,7 +158,7 @@ export const inboxuser = [
     time: "2m ago",
     unread: "3",
     status: "Active",
-    newmsg: false,
+    newmsg: true,
   },
   {
     id: 115,
@@ -169,7 +169,7 @@ export const inboxuser = [
     time: "2m ago",
     unread: "3",
     status: "Active",
-    newmsg: false,
+    newmsg: true,
   },
   {
     id: 116,
@@ -179,7 +179,7 @@ export const inboxuser = [
       "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
     time: "2m ago",
     msssagestatus: "seen",
-    newmsg: true,
+    newmsg: false,
   },
   {
     id: 117,
@@ -189,7 +189,7 @@ export const inboxuser = [
       "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
     time: "2m ago",
     msssagestatus: "seen",
-    newmsg: true,
+    newmsg: false,
   },
   {
     id: 118,
@@ -211,7 +211,7 @@ export const inboxuser = [
     time: "2m ago",
     unread: "3",
     status: "Active",
-    newmsg: false,
+    newmsg: true,
   },
   {
     id: 120,
@@ -222,7 +222,7 @@ export const inboxuser = [
     time: "2m ago",
     unread: "3",
     status: "Active",
-    newmsg: false,
+    newmsg: true,
   },
   {
     id: 121,
@@ -264,7 +264,7 @@ export const inboxuser = [
     time: "2m ago",
     unread: "3",
     status: "Active",
-    newmsg: false,
+    newmsg: true,
   },
   {
     id: 125,
@@ -275,7 +275,7 @@ export const inboxuser = [
     time: "2m ago",
     unread: "3",
     status: "Active",
-    newmsg: false,
+    newmsg: true,
   },
   {
     id: 126,
@@ -285,7 +285,7 @@ export const inboxuser = [
       "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
     time: "2m ago",
     msssagestatus: "seen",
-    newmsg: true,
+    newmsg: false,
   },
   {
     id: 127,
@@ -296,7 +296,7 @@ export const inboxuser = [
     time: "2m ago",
     unread: "3",
     status: "Active",
-    newmsg: false,
+    newmsg: true,
   },
   {
     id: 128,
@@ -306,7 +306,7 @@ export const inboxuser = [
       "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
     time: "2m ago",
     unread: "3",
-    newmsg: false,
+    newmsg: true,
   },
   {
     id: 129,
@@ -1053,7 +1053,7 @@ export const Teamagent = [
     team: "Marketing Team",
     users:[
   { name: 'John Doe', image: userimg  },
-  { name: 'Jane Smith', image: userimg  },
+  { name: 'Jane Smith', image: assignimg  },
   { name: 'Rick Evans', image: '' }, // No image provided
   { name: 'Mary Johnson', image: userimg  },
   { name: 'Paul Brown', image: userimg },
@@ -1065,7 +1065,7 @@ export const Teamagent = [
     team: "Sales team",
     users:[
   { name: 'John Doe', image: userimg  },
-  { name: 'Jane Smith', image: userimg  },
+  { name: 'Jane Smith', image: assignimg  },
   { name: 'Rick Evans', image: '' }, // No image provided
   
 ],
@@ -1075,7 +1075,7 @@ export const Teamagent = [
     team: "Accounts team",
     users:[
   { name: 'John Doe', image: userimg  },
-  { name: 'Jane Smith', image: userimg  },
+  { name: 'Jane Smith', image: assignimg  },
   { name: 'Rick Evans', image: '' }, // No image provided
   { name: 'Mary Johnson', image: userimg  },
   
@@ -1092,6 +1092,23 @@ export const Teamagent = [
   
 ],
   },
+  
+]
+
+export const addNewTeam = [
+  {
+    id: 261,
+    team: "Marketing Team",
+    users:[
+  { name: 'John Doe', image: userimg  },
+  { name: 'Jane Smith', image: assignimg  },
+  { name: 'Rick Evans', image: '' }, // No image provided
+  { name: 'Mary Johnson', image: userimg  },
+  { name: 'Paul Brown', image: userimg },
+  { name: 'Lisa White', image: userimg  },
+],
+  },
+
   
 ]
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { initialGenerator } from "../../Utils/Helpermethods";
 
-const TicketChatTemplate = ({ data }) => {
+const TicketChat = ({ data }) => {
   return (
     <>
       <div
@@ -59,4 +59,4 @@ const TicketChatTemplate = ({ data }) => {
   );
 };
 
-export default TicketChatTemplate;
+export default TicketChat;

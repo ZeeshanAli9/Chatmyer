@@ -4,6 +4,8 @@ export const routes = {
     Announcment: "announcement",
     Setting: "settings",
     Team: "Team",
+    CreateNewTeam: "/Team/create-team",
+    InviteUser: "/Team/invite-user",
     TeamAgent: "Team-agent",
     Tickets: "tickets",
     WidgetAppearance: "widget-appearance",
