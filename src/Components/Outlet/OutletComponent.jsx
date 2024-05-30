@@ -11,10 +11,7 @@ const OutletComponent = () => {
           <Sidebar />
         </div>
 
-        <div
-          className=" lg:w-[100vw] main-outlet  h-[100vh]"
-          style={{ width: `calc(100vw - 240px)` }}
-        >
+        <div className=" lg:w-[100vw] main-outlet  h-[100vh]">
           <div>
             <Topbar />
           </div>

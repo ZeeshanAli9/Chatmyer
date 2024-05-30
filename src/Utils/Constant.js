@@ -232,7 +232,7 @@ export const inboxuser = [
       "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
     time: "2m ago",
     msssagestatus: "seen",
-    newmsg: true,
+    newmsg: false,
   },
   {
     id: 122,
@@ -242,7 +242,7 @@ export const inboxuser = [
       "Hello! I’m sorry to hear this. Could youshow me a screenshot about what happens?",
     time: "2m ago",
     msssagestatus: "seen",
-    newmsg: true,
+    newmsg: false,
   },
   {
     id: 123,

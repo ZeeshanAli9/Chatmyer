@@ -168,8 +168,14 @@ const WidgetAppearance = () => {
             <div className="mb-2">
               <div className="p-1 rounded-md border-[3px] border-[#F4F1FF]  h-[220px] flex justify-between mx-auto flex-col w-[190px] mb-4">
                 <div className="flex flex-col gap-2">
-                  <div className="bg-[#F4F1FF] rounded-md py-10 flex items-center justify-center">
-                    <img src={uploadedImage.imageUrl} alt="" />
+                  <div className="bg-[#F4F1FF] rounded-md h-[100px] flex items-center justify-center">
+                    <img
+                      src={uploadedImage?.imageUrl || widgetgallery}
+                      alt=""
+                      className={`${
+                        uploadedImage?.imageUrl && "w-full object-cover h-full"
+                      } `}
+                    />
                   </div>
                 </div>
                 <div className="flex items-center gap-2">

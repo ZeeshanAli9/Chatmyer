@@ -18,7 +18,7 @@ const Topbar = () => {
 
   return (
     <>
-      <div className="flex justify-between px-6 py-3 border-b border-[#ebeaed] bg-[#ffffff] min-w-[700px] ">
+      <div className="flex justify-between px-6 py-3 border-b border-[#ebeaed] bg-[#ffffff] min-w-[1030px] ">
         <div className="min-w-[300px] lg:min-w-[360px]">
           <div className=" border-[0.5px] border-[#EBEAED] rounded-md flex items-center justify-between px-2 py-1 w-36">
             <div className="flex items-center">
