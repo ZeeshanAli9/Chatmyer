@@ -2,16 +2,192 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    font-family: "Inter", sans-serif;
+body {
+  font-family: "Inter", sans-serif;
 }
-.premium::after{
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-image: url("./assets/SidebarIcons/Shape.svg");
-    background-repeat: no-repeat;
-    width: 120px;
-    height: 100%;
+.font-Manrope{
+  font-family: "Manrope", sans-serif;
 }
+.premium::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url("./assets/SidebarIcons/Shape.svg");
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 100%;
+}
+
+.user_message {
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  max-height: 20px;
+}
+
+.custombg::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url("./assets/Images/Base.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.verifyotp::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url("./assets/Images/verifyotp.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+
+/* notification toggle button*/
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 28px;
+  height: 16px;
+}
+
+/* Hide default checkbox */
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #eae9ee;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+/* Slider before element (toggle knob) */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 2px;
+  bottom: 1px;
+  background-color: #8f8aa0;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+/* Checked state */
+input:checked + .slider {
+  background-color: #7055da;
+}
+
+input:checked + .slider:before {
+  transform: translateX(11px);
+}
+
+.group:hover .addticket{
+filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(11deg) brightness(102%) contrast(106%);
+}
+.group:hover .people{
+filter: brightness(0) saturate(100%) invert(33%) sepia(98%) saturate(1042%) hue-rotate(229deg) brightness(89%) contrast(91%);}
+.group:hover .trash,.group:hover .publish,.group:hover .edit{
+  filter: brightness(0) saturate(100%) invert(33%) sepia(98%) saturate(1042%) hue-rotate(229deg) brightness(89%) contrast(91%);
+  }
+
+
+.announcement .toggle {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+.announcement .slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 1px;
+  bottom: 1px;
+  background-color: #ffffff;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+.announcement input:checked +  .slider:before {
+  transform: translateX(20px);
+}
+
+input.colorfield[type="color"]::-webkit-color-swatch {
+  border: none;
+}
+
+input[type=checkbox]:checked {
+  background-color: #a77e2d !important;
+  color: #ffffff !important;
+}
+
+input[type='checkbox']:after {
+  box-shadow: none !important;
+}
+
+.addUser{
+position: absolute;
+left: 50%;
+transform: translateX(-50%) ;
+background-color: rgb(255, 236, 236);
+height: 15px;
+width: 25px;
+border: 1px solid #EBEAED;
+top: -15px;
+box-shadow: 0px 28px 32px 0px #00000014;
+display: block;
+z-index: -3;
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: unset;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #B6B4BA;
+  border-radius: 10px;
+  border: 1px solid #B6B4BA;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B6B4BA;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width:unset;
+  scrollbar-color: unset;
+}
+

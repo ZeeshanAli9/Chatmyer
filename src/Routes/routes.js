@@ -1,12 +1,18 @@
 export const routes = {
     login: "/login",
-    
-
     HelpCenter: "help-center",
     Announcment: "announcement",
     Setting: "settings",
     Team: "Team",
+    CreateNewTeam: "/Team/create-team",
+    InviteUser: "/Team/invite-user",
+    TeamAgent: "Team-agent",
     Tickets: "tickets",
-    WidgetAppearance: "widget-aqppearance",
-    WidgetSetting:"widget-setting"
+    WidgetAppearance: "widget-appearance",
+    WidgetAppearancemessage: "/widget-appearance/widget-message",
+    WidgetSetting: "widget-setting",
+    CreateTicket:"/tickets/create-ticket",
+    WriteHelp:"/help-center/write-help",
+    VerifyOtp:"/settings/verify-otp",
+    ChangePassword:"/settings/change-password",
 }
